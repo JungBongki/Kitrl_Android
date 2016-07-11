@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndEx01_Hello</string>
+    <string name="text01">버튼02</string>
+    <string name="mon1"> 1월의 탄생석 석류석</string>
+    <string name="mon2"> 2월의 탄생석 자수정</string>
+    <string name="mon3"> 3월의 탄생석 아쿠아마린</string>
+    <string name="mon4"> 4월의 탄생석 다이아몬드</string>
+    <string name="mon5"> 5월의 탄생석 에메랄드</string>
+    <string name="mon6"> 6월의 탄생석 진주</string>
+</resources>
