@@ -8,12 +8,24 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserInterface04">
+        <activity android:name=".tableLay01">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <!--.................................................-->
+        <activity android:name=".UserInterface04">
+        </activity>
+        <!--.................................................-->
+        <activity android:name=".FrameLay03">
+        </activity>
+        <!--.................................................-->
+        <activity android:name=".FrameLay02">
+        </activity>
+        <!--.................................................-->
+        <activity android:name=".FrameLay01">
         </activity>
         <!--.................................................-->
         <activity android:name=".UserInterface02">
@@ -71,6 +83,7 @@
         </activity>
         <!--.................................................-->
         <activity android:name=".HelloActivity">
+
         </activity>
 
     </application>
