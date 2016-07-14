@@ -8,12 +8,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MemUpt">
+        <activity android:name=".RadioBtn2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".LayoutByCode01">
+        </activity>
+        <activity android:name=".MemUpt">
         </activity>
         <activity android:name=".MemTop">
         </activity>
