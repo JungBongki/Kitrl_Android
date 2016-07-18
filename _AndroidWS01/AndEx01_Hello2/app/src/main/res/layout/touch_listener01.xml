@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/backgg"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="OnClick"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="OnTouch"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="#d932ce"
+            android:gravity="center"
+            android:id="@+id/count1"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textColor="#d932ce"
+            android:gravity="center"
+            android:id="@+id/count2"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="onclick"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonsharp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/onClick"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ontouch"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonsharp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/onTouch"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
